@@ -1,0 +1,45 @@
+{
+  "name": "STARTING SYSTEM",
+  "version": "2.0.0",
+  "description": "CLI tool untuk deploy website ke Vercel",
+  "main": "vercel.js",
+  "type": "module",
+  "bin": {
+    "deploy-vercel": "vercel.js"
+  },
+  "scripts": {
+    "start": "node vercel.js",
+    "dev": "node --watch vercel.js",
+    "test": "node vercel.js"
+  },
+  "keywords": [
+    "vercel",
+    "cli",
+    "deploy",
+    "telegram",
+    "backup",
+    "security"
+  ],
+  "author": "YanzXD",
+  "license": "MIT",
+  "dependencies": {
+    "unzipper": "^0.12.3",
+    "node-fetch": "^3.3.2",
+    "inquirer": "^9.2.12",
+    "chalk": "^5.3.0",
+    "clear": "^0.1.0",
+    "chalk-animation": "^2.0.3",
+    "public-ip": "^6.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheyanzXD/Vercel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheyanzXD/Vercel/issues"
+  },
+  "homepage": "https://github.com/TheyanzXD/Vercel#readme"
+}
